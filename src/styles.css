@@ -1,0 +1,61 @@
+.cardInfoOver {
+  height: 20rem;
+  width: 100%;
+  background-color: rgba(48, 48, 48, 0.454);
+  color: white;
+}
+
+.modalColor {
+  background-color: rgb(0, 0, 0);
+  color: "white";
+}
+
+h4 {
+  font-size: x-large;
+  font-family: sans-serif;
+}
+
+.modal-header {
+  padding: 6px 10px 6px 20px;
+  background-color: #000000;
+  border: 0px;
+  height: 30px;
+}
+
+.modal-body {
+  padding: 30px 40px 30px 40px;
+  background-color: #000000;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+
+.modal-header-font {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.modal-header-close {
+  color: white;
+}
+
+.modal-select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  padding-right: 10px;
+  background: url("../css/images/newpic/chevron-down.png") no-repeat scroll
+    right center transparent;
+  background-position-x: 185px;
+}
+
+.modal-input {
+  background-color: #000000;
+  border: 1px solid #000000;
+}
+
+.modal-footer {
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-top: none;
+  padding: 0px 15px 30px 15px;
+}
