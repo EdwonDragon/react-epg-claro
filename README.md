@@ -31,7 +31,7 @@ $ yarn build
 
 ```
 
-## Tests
+## Test
 *** 
 ```
 $ yarn test
