@@ -2,6 +2,8 @@
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
 2. [Installation](#installation)
+2. [Build](#build)
+2. [Test](#test)
 ### General Info
 ***
 Prueba Técnica Claro Video.
