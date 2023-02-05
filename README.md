@@ -1,6 +1,7 @@
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
+2. [Installation](#installation)
 ### General Info
 ***
 Prueba Técnica Claro Video.
