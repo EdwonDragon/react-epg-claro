@@ -1,12 +1,9 @@
 import { getChannels } from "./getChanels";
 
-
-
-
 export const ArrChannels = async (chanels) => {
-
-  // const chanels = await getChannels();
-
+  /**
+    * Construcción del arreglo de canales con la información unicamente necesaria
+    */
   const newChanels = chanels.map(({ id, image, name, provider_metadata_id, number }) => ({
     uuid: id,
     type: "channel",
@@ -20,11 +17,11 @@ export const ArrChannels = async (chanels) => {
 };
 
 export const ArrEpg = async (chanels) => {
+  /**
+   * Construcción del arreglo de programas con la información unicamente necesaria
+   */
   let ArrEpg = [];
   let obj = {};
-
- 
-
   let i = 1;
   chanels.forEach((chanels) => {
     chanels.events.forEach(({ id, channel_id, description, name, date_begin, date_end, image_base_square, parental_rating, ext_country, ext_year, ext_director, ext_language, duration }) => {

@@ -24,6 +24,7 @@ export function useApp() {
     isTimeline: true,
     isLine: true,
     isBaseTimeFormat: true,
+    
     theme
   });
 

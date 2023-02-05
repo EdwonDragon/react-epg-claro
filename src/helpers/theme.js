@@ -1,3 +1,7 @@
+/**
+   * Propiedades para el EPG
+   */
+
 export const theme = {
   primary: {
     600: "#1a1a1a",
