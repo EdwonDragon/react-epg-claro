@@ -10,7 +10,7 @@ export function useApp() {
   const [channels, setChannels] = React.useState([]);
 
   const [epg, setEpg] = React.useState([]);
-  const [isLoading, setIsLoading] = React.useState(false);
+  const [isLoading, setIsLoading] = React.useState(true);
   const channelsData = React.useMemo(() => channels, [channels]);
   const epgData = React.useMemo(() => epg, [epg]);
 
