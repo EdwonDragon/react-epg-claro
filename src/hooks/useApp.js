@@ -31,7 +31,6 @@ export function useApp() {
   //
   const handleFetchResources = React.useCallback(async () => {
     const chanels = await getChannels();
-    setIsLoading(true);
     const epg = await ArrEpg(chanels);
     const channels = await ArrChannels(chanels);
     setEpg(epg);
